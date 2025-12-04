@@ -1,0 +1,80 @@
+
+/* --- NAVBAR --- */
+nav {
+  background-color: brown;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+nav a:hover {
+  color: lightblue;
+}
+
+/* --- BODY STYLE --- */
+body {
+  background-color: #8c4141;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* --- HEADINGS --- */
+h1 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+h2, h3 {
+  font-size: 24px;
+  margin-top: 25px;
+}
+
+/* --- PARAGRAPH --- */
+p {
+  font-size: 18px;
+  margin: 10px 0 20px;
+}
+
+/* --- FORMS --- */
+form {
+  margin-top: 20px;
+}
+
+input, select, textarea {
+  width: 250px;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+button {
+  background-color: brown;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 40px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: brown;
+}
+
+/* --- LINKS --- */
+a {
+  color: white;
+}
+
+a:hover {
+  color: #333;
+}

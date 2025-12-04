@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Create an Account</h1>
+
+  <form id="signupForm" action="#" method="POST">
+    <label>Username:</label><br>
+    <input type="text" id="username" name="username" required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label>Password:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <label>Role:</label><br>
+    <select id="role" name="role" required>
+      <option value="">Select Role</option>
+      <option value="student">Student</option>
+      <option value="lecturer">Lecturer</option>
+      <option value="intern">Intern</option>
+    </select><br><br>
+
+    <button type="submit">Sign Up</button>
+  </form>
+
+  <p>Already registered? <a href="index.html">Login here</a></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
